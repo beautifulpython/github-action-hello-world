@@ -7,9 +7,9 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/github-action-hello-world@v1
+      uses: beautifulpython/github-action-hello-world@v1
       with:
-        who-to-greet: 'Mona the Octocat'
+        who-to-greet: 'czp'
     # Use the output from the `hello` step
     - name: Get the output time
-      run: echo "The time was ${{ steps.hello.outputs.time }}"
+      run: echo "The time was ${{ steps.hello.outputs.time }} by czp!"
